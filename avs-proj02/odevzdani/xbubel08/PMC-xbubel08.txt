@@ -1,0 +1,97 @@
+Architektury Výpočetních Systémů (AVS 2022)
+Projekt č. 2 (PMC)
+Login: xbubel08
+
+Úloha 1: Paralelizace původního řešení
+===============================================================================
+
+1) Kterou ze smyček (viz zadání) je vhodnější paralelizovat a co způsobuje 
+   neefektivitu paralelizaci té druhé?
+
+   Je vhodnější paralelizovat vnější smyčku. Neefektivita paralelizace druhé
+   smyčky je způsobena velkou režií.
+
+2) Jaké plánování (rozdělení práce mezi vlákna) jste zvolili a proč? 
+   Jaký vliv má velikost "chunk" při dynamickém plánování (8, 16, 32, 64)?
+
+   Zvolil sem dynamické škálování protože bylo nejrychlejší. Čím větší chunk
+   tím menší režie, ale také menší využití vláken.
+
+3) Jakým způsobem zajišťujete ukládání trojúhelníků z několika vláken současně?
+   
+   Pomocí #pragma omp critical. Tato pragma zajistí že do této části kódu bude
+   moct přistupovat jenom jedno vlakno najednou.
+
+Úloha 2: Paralelní průchod stromem
+===============================================================================
+
+1) Stručně popište použití OpenMP tasků ve vašem řešení.
+
+   Jako první jsem použil #pragma omp parallel před voláním funkce, která
+   obstará vytváření tásků. Zde jsem použil také #pragma omp single nowait
+   abych zajistil, že se tato funkce zavolá pouze jednou. Poté v této funkci
+   používám #pragma omp task ve for loop, které se provede 8x. Takhle se teda
+   při každém zavolání této funkce vytvoří 8 tasků, každý z těchto tásků může
+   vytvořit 8 dalších tásků (podle úrovně zanoření). Také jsem použil
+   #pragma omp atomic při zápisu počtu trojúhelníku při návratu z funkce a 
+   #pragma omp critical při zápisu trojúhelníku do konečného pole.
+
+2) Jaký vliv má na vaše řešení tzv. "cut-off"? Je vhodné vytvářet nový 
+   task pro každou krychli na nejnižší úrovni?
+
+   Cut-off určuje detailnost obrázku, při hodnotě vetší než 1 se obrázek skládá
+   z výrazně méně trojúhelníku. Na nejnižší úrovní není vhodné vytvářet nový
+   tásk, ale je lepší rovnou vrátit výsledek metody buildCube().
+
+3) Jakým způsobem zajišťujete ukládání trojúhelníků z několika vláken současně?
+
+   Pomocí #pragma omp atomic. Tato pragma je využita při přičítání hodnoty
+   vrácené rekurzivně volanou funkcí do celkové hodnoty.
+
+Úloha 3: Grafy škálování všech řešení
+===============================================================================
+
+1) Stručně zhodnoťte efektivitu vytvořených řešení (na základě grafů škálování).
+   
+   Efektivita stoupá směrem k 16 vláknům, ale pak prudce klesá směrem 32
+   vláknům.
+
+2) V jakém případě (v závislosti na počtu bodů ve vstupním souboru a velikosti 
+   mřížky) bude vaše řešení 1. úlohy neefektivní? (pokud takový případ existuje)
+
+   Když budu mít hodně vláken, ale malý vstup tak bude řešení neefektivní.
+
+3) Je (nebo není) stromový algoritmus efektivnější z pohledu slabého škálování 
+   vzhledem ke vstupu?
+
+   Ano je, čím menší vstup tím efektivnější.
+
+4) Jaký je rozdíle mezi silným a slabým škálováním?
+
+   Silné škálování je konstantní celková práce - snaha vykonat úlohu co
+   nejrychleji. Ideálně s rostoucím počtem jader klesá doba výpočtu.
+
+   Slabé škálování je konstantní čas výpočtu. Při řešení většich problémů
+   chceme s přidáváním komplexnosti a s přidáváním jader udržet stejný čas výpočtu.
+
+Úloha 4: Analýza využití jader pomocí VTune
+================================================================================
+
+1) Jaké bylo průměrné využití jader pro všechny tři implementace s omezením na 
+   18 vláken? Na kolik procent byly využity?
+   
+   ref: 2.8 %
+   loop: 47.9 %
+   tree: 43.9 %
+
+2) Jaké bylo průměrné využití jader pro všechny tři implementace s využitím 
+   všech jader? Na kolik procent se podařilo využít obě CPU?
+   
+   ref: 2.8 %
+   loop: 85.0 %
+   tree: 75.9 %
+
+3) Jaké jsou závěry z těchto měření?
+
+   Referenční řešení je nejhorší protože nepoužívá paralelizaci.
+   Loop je lepší než tree.

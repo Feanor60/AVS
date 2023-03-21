@@ -1,0 +1,363 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/vbubela/Downloads/avs-proj01/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+BASEMANDELCALCULATOR_H	calculators/BaseMandelCalculator.h	/^#define BASEMANDELCALCULATOR_H$/;"	d
+BATCHMANDELCALCULATOR_H	calculators/BatchMandelCalculator.h	/^#define BATCHMANDELCALCULATOR_H$/;"	d
+BaseMandelCalculator	calculators/BaseMandelCalculator.cc	/^BaseMandelCalculator::BaseMandelCalculator(unsigned matrixBaseSize, unsigned limit, const std::s/;"	f	class:BaseMandelCalculator
+BaseMandelCalculator	calculators/BaseMandelCalculator.h	/^class BaseMandelCalculator$/;"	c
+BatchMandelCalculator	calculators/BatchMandelCalculator.cc	/^BatchMandelCalculator::BatchMandelCalculator (unsigned matrixBaseSize, unsigned limit) :$/;"	f	class:BatchMandelCalculator
+BatchMandelCalculator	calculators/BatchMandelCalculator.h	/^class BatchMandelCalculator : public BaseMandelCalculator$/;"	c
+BigEndianTest	common/cnpy.cc	/^char cnpy::BigEndianTest() {$/;"	f	class:cnpy	typeref:typename:char
+CMAKE_CROSSCOMPILING	build/CMakeFiles/3.22.2/CMakeSystem.cmake	/^set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CXX_FLAGS	CMakeLists.txt	/^    set(CMAKE_CXX_FLAGS "-O3 -march=native -mtune=native ${CMAKE_CXX_FLAGS}")$/;"	v
+CMAKE_CXX_FLAGS	CMakeLists.txt	/^    set(CMAKE_CXX_FLAGS "-O3 -mavx2 -xHost -qopt-zmm-usage=high -g -qopenmp-simd -qopt-report=1 /;"	v
+CMAKE_CXX_STANDARD	CMakeLists.txt	/^set(CMAKE_CXX_STANDARD 11)$/;"	v
+CMAKE_CXX_STANDARD_REQUIRED	CMakeLists.txt	/^set(CMAKE_CXX_STANDARD_REQUIRED True)$/;"	v
+CMAKE_HOST_SYSTEM	build/CMakeFiles/3.22.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM "Linux-5.19.16-200.fc36.x86_64")$/;"	v
+CMAKE_HOST_SYSTEM_NAME	build/CMakeFiles/3.22.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_NAME "Linux")$/;"	v
+CMAKE_HOST_SYSTEM_PROCESSOR	build/CMakeFiles/3.22.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")$/;"	v
+CMAKE_HOST_SYSTEM_VERSION	build/CMakeFiles/3.22.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_VERSION "5.19.16-200.fc36.x86_64")$/;"	v
+CMAKE_SYSTEM	build/CMakeFiles/3.22.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM "Linux-5.19.16-200.fc36.x86_64")$/;"	v
+CMAKE_SYSTEM_LOADED	build/CMakeFiles/3.22.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_LOADED 1)$/;"	v
+CMAKE_SYSTEM_NAME	build/CMakeFiles/3.22.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_NAME "Linux")$/;"	v
+CMAKE_SYSTEM_PROCESSOR	build/CMakeFiles/3.22.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_PROCESSOR "x86_64")$/;"	v
+CMAKE_SYSTEM_VERSION	build/CMakeFiles/3.22.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_VERSION "5.19.16-200.fc36.x86_64")$/;"	v
+CMAKE_VERBOSE_MAKEFILE	CMakeLists.txt	/^set(CMAKE_VERBOSE_MAKEFILE 1)$/;"	v
+CXXOPTS_HAS_OPTIONAL	common/cxxopts.hpp	/^#define CXXOPTS_HAS_OPTIONAL$/;"	d
+CXXOPTS_HPP_INCLUDED	common/cxxopts.hpp	/^#define CXXOPTS_HPP_INCLUDED$/;"	d
+CXXOPTS_VECTOR_DELIMITER	common/cxxopts.hpp	/^#define CXXOPTS_VECTOR_DELIMITER /;"	d
+CXXOPTS__VERSION_MAJOR	common/cxxopts.hpp	/^#define CXXOPTS__VERSION_MAJOR /;"	d
+CXXOPTS__VERSION_MINOR	common/cxxopts.hpp	/^#define CXXOPTS__VERSION_MINOR /;"	d
+CXXOPTS__VERSION_PATCH	common/cxxopts.hpp	/^#define CXXOPTS__VERSION_PATCH /;"	d
+HelpGroupDetails	common/cxxopts.hpp	/^  struct HelpGroupDetails$/;"	s	namespace:cxxopts
+HelpOptionDetails	common/cxxopts.hpp	/^  struct HelpOptionDetails$/;"	s	namespace:cxxopts
+KeyValue	common/cxxopts.hpp	/^    KeyValue(std::string key_, std::string value_)$/;"	f	class:cxxopts::KeyValue
+KeyValue	common/cxxopts.hpp	/^  class KeyValue$/;"	c	namespace:cxxopts
+LIBCNPY_H_	common/cnpy.h	/^#define LIBCNPY_H_$/;"	d
+LQUOTE	common/cxxopts.hpp	/^    const std::string LQUOTE("\\'");$/;"	v	namespace:cxxopts::__anone513002c0211	typeref:typename:const std::string
+LineMandelCalculator	calculators/LineMandelCalculator.cc	/^LineMandelCalculator::LineMandelCalculator (unsigned matrixBaseSize, unsigned limit) :$/;"	f	class:LineMandelCalculator
+LineMandelCalculator	calculators/LineMandelCalculator.h	/^class LineMandelCalculator : public BaseMandelCalculator$/;"	c
+NpyArray	common/cnpy.h	/^        NpyArray() : shape(0), word_size(0), fortran_order(0), num_vals(0) { }$/;"	f	struct:cnpy::NpyArray
+NpyArray	common/cnpy.h	/^        NpyArray(const std::vector<size_t>& _shape, size_t _word_size, bool _fortran_order) :$/;"	f	struct:cnpy::NpyArray
+NpyArray	common/cnpy.h	/^    struct NpyArray {$/;"	s	namespace:cnpy
+OPTION_DESC_GAP	common/cxxopts.hpp	/^    constexpr int OPTION_DESC_GAP = 2;$/;"	v	namespace:cxxopts::__anone513002c0411	typeref:typename:int
+OPTION_LONGEST	common/cxxopts.hpp	/^    constexpr int OPTION_LONGEST = 30;$/;"	v	namespace:cxxopts::__anone513002c0411	typeref:typename:int
+Option	common/cxxopts.hpp	/^    Option$/;"	f	struct:cxxopts::Option
+Option	common/cxxopts.hpp	/^  struct Option$/;"	s	namespace:cxxopts
+OptionAdder	common/cxxopts.hpp	/^    OptionAdder(Options& options, std::string group)$/;"	f	class:cxxopts::OptionAdder
+OptionAdder	common/cxxopts.hpp	/^  class OptionAdder$/;"	c	namespace:cxxopts
+OptionDetails	common/cxxopts.hpp	/^    OptionDetails$/;"	f	class:cxxopts::OptionDetails
+OptionDetails	common/cxxopts.hpp	/^    OptionDetails(const OptionDetails& rhs)$/;"	f	class:cxxopts::OptionDetails
+OptionDetails	common/cxxopts.hpp	/^  class OptionDetails$/;"	c	namespace:cxxopts
+OptionException	common/cxxopts.hpp	/^    OptionException(const std::string& message)$/;"	f	class:cxxopts::OptionException
+OptionException	common/cxxopts.hpp	/^  class OptionException : public std::exception$/;"	c	namespace:cxxopts
+OptionHelp	common/cxxopts.hpp	/^  typedef std::vector<std::pair<String, String>> OptionHelp;$/;"	t	function:cxxopts::Options::help_one_group	typeref:typename:std::vector<std::pair<String,String>>
+OptionMap	common/cxxopts.hpp	/^      OptionMap;$/;"	t	class:cxxopts::Options	typeref:typename:std::unordered_map<std::string,std::shared_ptr<OptionDetails>>
+OptionParseException	common/cxxopts.hpp	/^    OptionParseException(const std::string& message)$/;"	f	class:cxxopts::OptionParseException
+OptionParseException	common/cxxopts.hpp	/^  class OptionParseException : public OptionException$/;"	c	namespace:cxxopts
+OptionSpecException	common/cxxopts.hpp	/^    OptionSpecException(const std::string& message)$/;"	f	class:cxxopts::OptionSpecException
+OptionSpecException	common/cxxopts.hpp	/^  class OptionSpecException : public OptionException$/;"	c	namespace:cxxopts
+OptionValue	common/cxxopts.hpp	/^  class OptionValue$/;"	c	namespace:cxxopts
+Options	common/cxxopts.hpp	/^    Options(std::string program, std::string help_string = "")$/;"	f	class:cxxopts::Options
+Options	common/cxxopts.hpp	/^  class Options$/;"	c	namespace:cxxopts
+ParseResult	common/cxxopts.hpp	/^  class ParseResult$/;"	c	namespace:cxxopts
+ParseResult	common/cxxopts.hpp	/^ParseResult::ParseResult$/;"	f	class:cxxopts::ParseResult
+PerfClockDurationMs	common/vector_helpers.h	/^std::chrono::milliseconds PerfClockDurationMs(const T &dur) {$/;"	f	typeref:typename:std::chrono::milliseconds
+PerfClock_t	common/vector_helpers.h	/^typedef std::chrono::steady_clock PerfClock_t;$/;"	t	typeref:typename:std::chrono::steady_clock
+REFMANDELCALCULATOR_H	calculators/RefMandelCalculator.h	/^#define REFMANDELCALCULATOR_H$/;"	d
+RQUOTE	common/cxxopts.hpp	/^    const std::string RQUOTE("\\'");$/;"	v	namespace:cxxopts::__anone513002c0211	typeref:typename:const std::string
+RefMandelCalculator	calculators/RefMandelCalculator.cc	/^RefMandelCalculator::RefMandelCalculator(unsigned matrixBaseSize, unsigned limit) : BaseMandelCa/;"	f	class:RefMandelCalculator
+RefMandelCalculator	calculators/RefMandelCalculator.h	/^class RefMandelCalculator : public BaseMandelCalculator$/;"	c
+SOURCE_FILES	CMakeLists.txt	/^set(SOURCE_FILES$/;"	v
+Self	common/cxxopts.hpp	/^      using Self = abstract_value<T>;$/;"	t	class:cxxopts::values::abstract_value	typeref:typename:abstract_value<T>
+SignedCheck	common/cxxopts.hpp	/^      struct SignedCheck<T, false>$/;"	s	namespace:cxxopts::values::detail
+SignedCheck	common/cxxopts.hpp	/^      struct SignedCheck<T, true>$/;"	s	namespace:cxxopts::values::detail
+String	common/cxxopts.hpp	/^  typedef icu::UnicodeString String;$/;"	t	namespace:cxxopts	typeref:typename:icu::UnicodeString
+String	common/cxxopts.hpp	/^  typedef std::string String;$/;"	t	namespace:cxxopts	typeref:typename:std::string
+US	common/cxxopts.hpp	/^      using US = typename std::make_unsigned<T>::type;$/;"	t	function:cxxopts::values::integer_parser	typeref:typename:std::make_unsigned<T>::type
+UnicodeStringIterator	common/cxxopts.hpp	/^    UnicodeStringIterator(const icu::UnicodeString* string, int32_t pos)$/;"	f	class:cxxopts::UnicodeStringIterator
+UnicodeStringIterator	common/cxxopts.hpp	/^  class UnicodeStringIterator : public$/;"	c	namespace:cxxopts
+VECTOR_HELPERS_H	common/vector_helpers.h	/^#define VECTOR_HELPERS_H$/;"	d
+Value	common/cxxopts.hpp	/^  class Value : public std::enable_shared_from_this<Value>$/;"	c	namespace:cxxopts
+__anone513002c0108	common/cxxopts.hpp	/^  static constexpr struct {$/;"	s	namespace:cxxopts
+__anone513002c0211	common/cxxopts.hpp	/^  {$/;"	n	namespace:cxxopts
+__anone513002c0311	common/cxxopts.hpp	/^    {$/;"	n	namespace:cxxopts::values
+__anone513002c0411	common/cxxopts.hpp	/^  {$/;"	n	namespace:cxxopts
+__anone513002c0502	common/cxxopts.hpp	/^  {$/;"	f	function:cxxopts::OptionAdder::operator () 	file:
+__anone513002c0602	common/cxxopts.hpp	/^    {$/;"	f	function:cxxopts::Options::groups	file:
+abstract_value	common/cxxopts.hpp	/^      abstract_value()$/;"	f	class:cxxopts::values::abstract_value
+abstract_value	common/cxxopts.hpp	/^      abstract_value(T* t)$/;"	f	class:cxxopts::values::abstract_value
+abstract_value	common/cxxopts.hpp	/^      abstract_value(const abstract_value& rhs)$/;"	f	class:cxxopts::values::abstract_value
+abstract_value	common/cxxopts.hpp	/^    class abstract_value : public Value$/;"	c	namespace:cxxopts::values
+add_one_option	common/cxxopts.hpp	/^Options::add_one_option$/;"	f	class:cxxopts::Options	typeref:typename:void
+add_option	common/cxxopts.hpp	/^Options::add_option$/;"	f	class:cxxopts::Options	typeref:typename:void
+add_options	common/cxxopts.hpp	/^Options::add_options$/;"	f	class:cxxopts::Options	typeref:typename:void
+add_options	common/cxxopts.hpp	/^Options::add_options(std::string group)$/;"	f	class:cxxopts::Options	typeref:typename:OptionAdder
+add_to_option	common/cxxopts.hpp	/^ParseResult::add_to_option(const std::string& option, const std::string& arg)$/;"	f	class:cxxopts::ParseResult	typeref:typename:void
+allow_unrecognised_options	common/cxxopts.hpp	/^    allow_unrecognised_options()$/;"	f	class:cxxopts::Options	typeref:typename:Options &
+arg_help	common/cxxopts.hpp	/^    std::string arg_help;$/;"	m	struct:cxxopts::HelpOptionDetails	typeref:typename:std::string
+arg_help_	common/cxxopts.hpp	/^    std::string arg_help_;$/;"	m	struct:cxxopts::Option	typeref:typename:std::string
+args	scripts/compare.py	/^    args = parser.parse_args()$/;"	v
+args	scripts/plot_evaluate.py	/^    args = parser.parse_args()$/;"	v
+args	scripts/visualise.py	/^    args = parser.parse_args()$/;"	v
+argument_incorrect_type	common/cxxopts.hpp	/^    argument_incorrect_type$/;"	f	class:cxxopts::argument_incorrect_type
+argument_incorrect_type	common/cxxopts.hpp	/^  class argument_incorrect_type : public OptionParseException$/;"	c	namespace:cxxopts
+arguments	common/cxxopts.hpp	/^    arguments() const$/;"	f	class:cxxopts::ParseResult	typeref:typename:const std::vector<KeyValue> &
+as	common/cxxopts.hpp	/^    as() const$/;"	f	class:cxxopts::KeyValue	typeref:typename:T
+as	common/cxxopts.hpp	/^    as() const$/;"	f	class:cxxopts::OptionValue	typeref:typename:const T &
+as_vec	common/cnpy.h	/^        std::vector<T> as_vec() const {$/;"	f	struct:cnpy::NpyArray	typeref:typename:std::vector<T>
+batchMode	calculators/BaseMandelCalculator.h	/^    bool batchMode;$/;"	m	class:BaseMandelCalculator	typeref:typename:bool
+begin	common/cxxopts.hpp	/^  begin(const icu::UnicodeString& s)$/;"	f	namespace:std	typeref:typename:cxxopts::UnicodeStringIterator
+cName	calculators/BaseMandelCalculator.h	/^    const std::string cName;$/;"	m	class:BaseMandelCalculator	typeref:typename:const std::string
+calculateMandelbrot	calculators/BatchMandelCalculator.cc	/^int * BatchMandelCalculator::calculateMandelbrot () {$/;"	f	class:BatchMandelCalculator	typeref:typename:int *
+calculateMandelbrot	calculators/LineMandelCalculator.cc	/^int * LineMandelCalculator::calculateMandelbrot () {$/;"	f	class:LineMandelCalculator	typeref:typename:int *
+calculateMandelbrot	calculators/RefMandelCalculator.cc	/^int *RefMandelCalculator::calculateMandelbrot()$/;"	f	class:RefMandelCalculator	typeref:typename:int *
+check_signed_range	common/cxxopts.hpp	/^      check_signed_range(bool negative, U value, const std::string& text)$/;"	f	namespace:cxxopts::values::detail	typeref:typename:void
+checked_negate	common/cxxopts.hpp	/^    checked_negate(T&& t, const std::string& text, std::false_type)$/;"	f	namespace:cxxopts::values	typeref:typename:T
+checked_parse_arg	common/cxxopts.hpp	/^ParseResult::checked_parse_arg$/;"	f	class:cxxopts::ParseResult	typeref:typename:void
+clone	common/cxxopts.hpp	/^      clone() const$/;"	f	class:cxxopts::values::standard_value	typeref:typename:std::shared_ptr<Value>
+cnpy	common/cnpy.h	/^namespace cnpy {$/;"	n
+consume_positional	common/cxxopts.hpp	/^ParseResult::consume_positional(std::string a)$/;"	f	class:cxxopts::ParseResult	typeref:typename:bool
+count	common/cxxopts.hpp	/^    count() const noexcept$/;"	f	class:cxxopts::OptionValue	typeref:typename:size_t
+count	common/cxxopts.hpp	/^    count(const std::string& o) const$/;"	f	class:cxxopts::ParseResult	typeref:typename:size_t
+create_npy_header	common/cnpy.h	/^    template<typename T> std::vector<char> create_npy_header(const std::vector<size_t>& shape) {/;"	f	namespace:cnpy	typeref:typename:std::vector<char>
+custom_help	common/cxxopts.hpp	/^    custom_help(std::string help_text)$/;"	f	class:cxxopts::Options	typeref:typename:Options &
+cxxopts	common/cxxopts.hpp	/^namespace cxxopts$/;"	n
+data	calculators/RefMandelCalculator.h	/^    int *data;$/;"	m	class:RefMandelCalculator	typeref:typename:int *
+data	common/cnpy.h	/^        T* data() {$/;"	f	struct:cnpy::NpyArray	typeref:typename:T *
+data	common/cnpy.h	/^        const T* data() const {$/;"	f	struct:cnpy::NpyArray	typeref:typename:const T *
+data_holder	common/cnpy.h	/^        std::shared_ptr<std::vector<char>> data_holder;$/;"	m	struct:cnpy::NpyArray	typeref:typename:std::shared_ptr<std::vector<char>>
+default_value	common/cxxopts.hpp	/^      default_value(const std::string& value)$/;"	f	class:cxxopts::values::abstract_value	typeref:typename:std::shared_ptr<Value>
+default_value	common/cxxopts.hpp	/^    std::string default_value;$/;"	m	struct:cxxopts::HelpOptionDetails	typeref:typename:std::string
+desc	common/cxxopts.hpp	/^    String desc;$/;"	m	struct:cxxopts::HelpOptionDetails	typeref:typename:String
+desc_	common/cxxopts.hpp	/^    std::string desc_;$/;"	m	struct:cxxopts::Option	typeref:typename:std::string
+description	common/cxxopts.hpp	/^    description() const$/;"	f	class:cxxopts::OptionDetails	typeref:typename:const String &
+description	common/cxxopts.hpp	/^    std::string description;$/;"	m	struct:cxxopts::HelpGroupDetails	typeref:typename:std::string
+detail	common/cxxopts.hpp	/^    namespace detail$/;"	n	namespace:cxxopts::values
+dx	calculators/BaseMandelCalculator.h	/^    double dx; \/\/ step of real vaues$/;"	m	class:BaseMandelCalculator	typeref:typename:double
+dy	calculators/BaseMandelCalculator.h	/^	double dy; \/\/ step of imag values$/;"	m	class:BaseMandelCalculator	typeref:typename:double
+empty	common/cxxopts.hpp	/^  empty(const String& s)$/;"	f	namespace:cxxopts	typeref:typename:bool
+empty	common/cxxopts.hpp	/^  empty(const std::string& s)$/;"	f	namespace:cxxopts	typeref:typename:bool
+end	common/cxxopts.hpp	/^  end(const icu::UnicodeString& s)$/;"	f	namespace:std	typeref:typename:cxxopts::UnicodeStringIterator
+ensure_value	common/cxxopts.hpp	/^    ensure_value(std::shared_ptr<const OptionDetails> details)$/;"	f	class:cxxopts::OptionValue	typeref:typename:void
+evaluateCalculator	main.cc	/^void evaluateCalculator(unsigned baseSize, unsigned iters, const std::string &fileName, bool bat/;"	f	typeref:typename:void
+falsy_pattern	common/cxxopts.hpp	/^      std::basic_regex<char> falsy_pattern$/;"	v	namespace:cxxopts::values::__anone513002c0311	typeref:typename:std::basic_regex<char>
+format_description	common/cxxopts.hpp	/^    format_description$/;"	f	namespace:cxxopts::__anone513002c0411	typeref:typename:String
+format_option	common/cxxopts.hpp	/^    format_option$/;"	f	namespace:cxxopts::__anone513002c0411	typeref:typename:String
+fortran_order	common/cnpy.h	/^        bool fortran_order;$/;"	m	struct:cnpy::NpyArray	typeref:typename:bool
+generate_all_groups_help	common/cxxopts.hpp	/^Options::generate_all_groups_help(String& result) const$/;"	f	class:cxxopts::Options	typeref:typename:void
+generate_group_help	common/cxxopts.hpp	/^Options::generate_group_help$/;"	f	class:cxxopts::Options	typeref:typename:void
+get	common/cxxopts.hpp	/^      get() const$/;"	f	class:cxxopts::values::abstract_value	typeref:typename:const T &
+get_default_value	common/cxxopts.hpp	/^      get_default_value() const$/;"	f	class:cxxopts::values::abstract_value	typeref:typename:std::string
+get_implicit_value	common/cxxopts.hpp	/^      get_implicit_value() const$/;"	f	class:cxxopts::values::abstract_value	typeref:typename:std::string
+group_help	common/cxxopts.hpp	/^Options::group_help(const std::string& group) const$/;"	f	class:cxxopts::Options	typeref:typename:const HelpGroupDetails &
+groups	common/cxxopts.hpp	/^Options::groups() const$/;"	f	class:cxxopts::Options	typeref:typename:const std::vector<std::string>
+has_default	common/cxxopts.hpp	/^      has_default() const$/;"	f	class:cxxopts::values::abstract_value	typeref:typename:bool
+has_default	common/cxxopts.hpp	/^    bool has_default;$/;"	m	struct:cxxopts::HelpOptionDetails	typeref:typename:bool
+has_default	common/cxxopts.hpp	/^    has_default() const noexcept$/;"	f	class:cxxopts::OptionValue	typeref:typename:bool
+has_implicit	common/cxxopts.hpp	/^      has_implicit() const$/;"	f	class:cxxopts::values::abstract_value	typeref:typename:bool
+has_implicit	common/cxxopts.hpp	/^    bool has_implicit;$/;"	m	struct:cxxopts::HelpOptionDetails	typeref:typename:bool
+height	calculators/BaseMandelCalculator.h	/^    int height; \/\/ hegiht of the set$/;"	m	class:BaseMandelCalculator	typeref:typename:int
+help	common/cxxopts.hpp	/^Options::help(const std::vector<std::string>& help_groups) const$/;"	f	class:cxxopts::Options	typeref:typename:std::string
+help_one_group	common/cxxopts.hpp	/^Options::help_one_group(const std::string& g) const$/;"	f	class:cxxopts::Options	typeref:typename:String
+i	common/cxxopts.hpp	/^    int32_t i;$/;"	m	class:cxxopts::UnicodeStringIterator	typeref:typename:int32_t
+implicit_value	common/cxxopts.hpp	/^      implicit_value(const std::string& value)$/;"	f	class:cxxopts::values::abstract_value	typeref:typename:std::shared_ptr<Value>
+implicit_value	common/cxxopts.hpp	/^    std::string implicit_value;$/;"	m	struct:cxxopts::HelpOptionDetails	typeref:typename:std::string
+info	calculators/BaseMandelCalculator.cc	/^void BaseMandelCalculator::info(std::ostream &cout, bool batchMode)$/;"	f	class:BaseMandelCalculator	typeref:typename:void
+integer_parser	common/cxxopts.hpp	/^    integer_parser(const std::string& text, T& value)$/;"	f	namespace:cxxopts::values	typeref:typename:void
+integer_pattern	common/cxxopts.hpp	/^      std::basic_regex<char> integer_pattern$/;"	v	namespace:cxxopts::values::__anone513002c0311	typeref:typename:std::basic_regex<char>
+invalid_option_format_error	common/cxxopts.hpp	/^    invalid_option_format_error(const std::string& format)$/;"	f	class:cxxopts::invalid_option_format_error
+invalid_option_format_error	common/cxxopts.hpp	/^  class invalid_option_format_error : public OptionSpecException$/;"	c	namespace:cxxopts
+is_boolean	common/cxxopts.hpp	/^      is_boolean() const$/;"	f	class:cxxopts::values::abstract_value	typeref:typename:bool
+is_boolean	common/cxxopts.hpp	/^    bool is_boolean;$/;"	m	struct:cxxopts::HelpOptionDetails	typeref:typename:bool
+is_container	common/cxxopts.hpp	/^      is_container() const$/;"	f	class:cxxopts::values::abstract_value	typeref:typename:bool
+is_container	common/cxxopts.hpp	/^    bool is_container;$/;"	m	struct:cxxopts::HelpOptionDetails	typeref:typename:bool
+key	common/cxxopts.hpp	/^    key() const$/;"	f	class:cxxopts::KeyValue	typeref:typename:const std::string &
+l	common/cxxopts.hpp	/^    std::string l;$/;"	m	struct:cxxopts::HelpOptionDetails	typeref:typename:std::string
+limit	calculators/BaseMandelCalculator.h	/^    const int limit;$/;"	m	class:BaseMandelCalculator	typeref:typename:const int
+load_the_npy_file	common/cnpy.cc	/^cnpy::NpyArray load_the_npy_file(FILE* fp) {$/;"	f	typeref:typename:cnpy::NpyArray
+load_the_npz_array	common/cnpy.cc	/^cnpy::NpyArray load_the_npz_array(FILE* fp, uint32_t compr_bytes, uint32_t uncompr_bytes) {$/;"	f	typeref:typename:cnpy::NpyArray
+long_name	common/cxxopts.hpp	/^    long_name() const$/;"	f	class:cxxopts::OptionDetails	typeref:typename:const std::string &
+m_allow_unrecognised	common/cxxopts.hpp	/^    bool m_allow_unrecognised;$/;"	m	class:cxxopts::Options	typeref:typename:bool
+m_allow_unrecognised	common/cxxopts.hpp	/^    bool m_allow_unrecognised;$/;"	m	class:cxxopts::ParseResult	typeref:typename:bool
+m_count	common/cxxopts.hpp	/^    int m_count;$/;"	m	class:cxxopts::OptionDetails	typeref:typename:int
+m_count	common/cxxopts.hpp	/^    size_t m_count = 0;$/;"	m	class:cxxopts::OptionValue	typeref:typename:size_t
+m_custom_help	common/cxxopts.hpp	/^    std::string m_custom_help;$/;"	m	class:cxxopts::Options	typeref:typename:std::string
+m_default	common/cxxopts.hpp	/^      bool m_default = false;$/;"	m	class:cxxopts::values::abstract_value	typeref:typename:bool
+m_default	common/cxxopts.hpp	/^    bool m_default = false;$/;"	m	class:cxxopts::OptionValue	typeref:typename:bool
+m_default_value	common/cxxopts.hpp	/^      std::string m_default_value;$/;"	m	class:cxxopts::values::abstract_value	typeref:typename:std::string
+m_desc	common/cxxopts.hpp	/^    String m_desc;$/;"	m	class:cxxopts::OptionDetails	typeref:typename:String
+m_group	common/cxxopts.hpp	/^    std::string m_group;$/;"	m	class:cxxopts::OptionAdder	typeref:typename:std::string
+m_help	common/cxxopts.hpp	/^    std::map<std::string, HelpGroupDetails> m_help;$/;"	m	class:cxxopts::Options	typeref:typename:std::map<std::string,HelpGroupDetails>
+m_help_string	common/cxxopts.hpp	/^    String m_help_string;$/;"	m	class:cxxopts::Options	typeref:typename:String
+m_implicit	common/cxxopts.hpp	/^      bool m_implicit = false;$/;"	m	class:cxxopts::values::abstract_value	typeref:typename:bool
+m_implicit_value	common/cxxopts.hpp	/^      std::string m_implicit_value;$/;"	m	class:cxxopts::values::abstract_value	typeref:typename:std::string
+m_key	common/cxxopts.hpp	/^    std::string m_key;$/;"	m	class:cxxopts::KeyValue	typeref:typename:std::string
+m_long	common/cxxopts.hpp	/^    std::string m_long;$/;"	m	class:cxxopts::OptionDetails	typeref:typename:std::string
+m_message	common/cxxopts.hpp	/^    std::string m_message;$/;"	m	class:cxxopts::OptionException	typeref:typename:std::string
+m_next_positional	common/cxxopts.hpp	/^    std::vector<std::string>::iterator m_next_positional;$/;"	m	class:cxxopts::Options	typeref:typename:std::vector<std::string>::iterator
+m_next_positional	common/cxxopts.hpp	/^    std::vector<std::string>::iterator m_next_positional;$/;"	m	class:cxxopts::ParseResult	typeref:typename:std::vector<std::string>::iterator
+m_options	common/cxxopts.hpp	/^    > m_options;$/;"	m	class:cxxopts::ParseResult	typeref:typename:const std::shared_ptr<std::unordered_map<std::string,std::shared_ptr<OptionDetails>>>
+m_options	common/cxxopts.hpp	/^    Options& m_options;$/;"	m	class:cxxopts::OptionAdder	typeref:typename:Options &
+m_options	common/cxxopts.hpp	/^    std::shared_ptr<OptionMap> m_options;$/;"	m	class:cxxopts::Options	typeref:typename:std::shared_ptr<OptionMap>
+m_positional	common/cxxopts.hpp	/^    std::vector<std::string> m_positional;$/;"	m	class:cxxopts::Options	typeref:typename:std::vector<std::string>
+m_positional	common/cxxopts.hpp	/^    std::vector<std::string> m_positional;$/;"	m	class:cxxopts::ParseResult	typeref:typename:std::vector<std::string>
+m_positional_help	common/cxxopts.hpp	/^    std::string m_positional_help;$/;"	m	class:cxxopts::Options	typeref:typename:std::string
+m_positional_set	common/cxxopts.hpp	/^    std::unordered_set<std::string> m_positional_set;$/;"	m	class:cxxopts::Options	typeref:typename:std::unordered_set<std::string>
+m_positional_set	common/cxxopts.hpp	/^    std::unordered_set<std::string> m_positional_set;$/;"	m	class:cxxopts::ParseResult	typeref:typename:std::unordered_set<std::string>
+m_program	common/cxxopts.hpp	/^    std::string m_program;$/;"	m	class:cxxopts::Options	typeref:typename:std::string
+m_result	common/cxxopts.hpp	/^      std::shared_ptr<T> m_result;$/;"	m	class:cxxopts::values::abstract_value	typeref:typename:std::shared_ptr<T>
+m_results	common/cxxopts.hpp	/^    std::unordered_map<std::shared_ptr<OptionDetails>, OptionValue> m_results;$/;"	m	class:cxxopts::ParseResult	typeref:typename:std::unordered_map<std::shared_ptr<OptionDetails>,OptionValue>
+m_sequential	common/cxxopts.hpp	/^    std::vector<KeyValue> m_sequential;$/;"	m	class:cxxopts::ParseResult	typeref:typename:std::vector<KeyValue>
+m_short	common/cxxopts.hpp	/^    std::string m_short;$/;"	m	class:cxxopts::OptionDetails	typeref:typename:std::string
+m_show_positional	common/cxxopts.hpp	/^    bool m_show_positional;$/;"	m	class:cxxopts::Options	typeref:typename:bool
+m_store	common/cxxopts.hpp	/^      T* m_store;$/;"	m	class:cxxopts::values::abstract_value	typeref:typename:T *
+m_value	common/cxxopts.hpp	/^    std::shared_ptr<Value> m_value;$/;"	m	class:cxxopts::OptionValue	typeref:typename:std::shared_ptr<Value>
+m_value	common/cxxopts.hpp	/^    std::shared_ptr<const Value> m_value;$/;"	m	class:cxxopts::OptionDetails	typeref:typename:std::shared_ptr<const Value>
+m_value	common/cxxopts.hpp	/^    std::string m_value;$/;"	m	class:cxxopts::KeyValue	typeref:typename:std::string
+main	main.cc	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	scripts/compare.py	/^def main(file1=None, file2=None):$/;"	f
+major	common/cxxopts.hpp	/^    uint8_t major, minor, patch;$/;"	m	struct:cxxopts::__anone513002c0108	typeref:typename:uint8_t
+make_storage	common/cxxopts.hpp	/^    make_storage() const$/;"	f	class:cxxopts::OptionDetails	typeref:typename:std::shared_ptr<Value>
+mandelbrot	CMakeLists.txt	/^add_executable(mandelbrot ${SOURCE_FILES})$/;"	t
+mandelbrot	CMakeLists.txt	/^project(mandelbrot)$/;"	p
+mandelbrot	calculators/RefMandelCalculator.cc	/^static inline int mandelbrot(T real, T imag, int limit)$/;"	f	typeref:typename:int	file:
+map_type	common/cnpy.cc	/^char cnpy::map_type(const std::type_info& t)$/;"	f	class:cnpy	typeref:typename:char
+minor	common/cxxopts.hpp	/^    uint8_t major, minor, patch;$/;"	m	struct:cxxopts::__anone513002c0108	typeref:typename:uint8_t
+missing_argument_exception	common/cxxopts.hpp	/^    missing_argument_exception(const std::string& option)$/;"	f	class:cxxopts::missing_argument_exception
+missing_argument_exception	common/cxxopts.hpp	/^  class missing_argument_exception : public OptionParseException$/;"	c	namespace:cxxopts
+name	common/cxxopts.hpp	/^    std::string name;$/;"	m	struct:cxxopts::HelpGroupDetails	typeref:typename:std::string
+no_implicit_value	common/cxxopts.hpp	/^      no_implicit_value()$/;"	f	class:cxxopts::values::abstract_value	typeref:typename:std::shared_ptr<Value>
+np	scripts/compare.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	scripts/plot_evaluate.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	scripts/visualise.py	/^import numpy as np$/;"	I	nameref:module:numpy
+npy_load	common/cnpy.cc	/^cnpy::NpyArray cnpy::npy_load(std::string fname) {$/;"	f	class:cnpy	typeref:typename:cnpy::NpyArray
+npy_save	common/cnpy.h	/^    template<typename T> void npy_save(std::string fname, const T* data, const std::vector<size_/;"	f	namespace:cnpy	typeref:typename:void
+npy_save	common/cnpy.h	/^    template<typename T> void npy_save(std::string fname, const std::vector<T> data, std::string/;"	f	namespace:cnpy	typeref:typename:void
+npz_load	common/cnpy.cc	/^cnpy::NpyArray cnpy::npz_load(std::string fname, std::string varname) {$/;"	f	class:cnpy	typeref:typename:cnpy::NpyArray
+npz_load	common/cnpy.cc	/^cnpy::npz_t cnpy::npz_load(std::string fname) {$/;"	f	class:cnpy	typeref:typename:cnpy::npz_t
+npz_save	common/cnpy.h	/^    template<typename T> void npz_save(std::string zipname, std::string fname, const T* data, co/;"	f	namespace:cnpy	typeref:typename:void
+npz_save	common/cnpy.h	/^    template<typename T> void npz_save(std::string zipname, std::string fname, const std::vector/;"	f	namespace:cnpy	typeref:typename:void
+npz_t	common/cnpy.h	/^    using npz_t = std::map<std::string, NpyArray>; $/;"	t	namespace:cnpy	typeref:typename:std::map<std::string,NpyArray>
+num_bytes	common/cnpy.h	/^        size_t num_bytes() const {$/;"	f	struct:cnpy::NpyArray	typeref:typename:size_t
+num_vals	common/cnpy.h	/^        size_t num_vals;$/;"	m	struct:cnpy::NpyArray	typeref:typename:size_t
+operator !=	common/cxxopts.hpp	/^    operator!=(const UnicodeStringIterator& rhs) const$/;"	f	class:cxxopts::UnicodeStringIterator	typeref:typename:bool
+operator ()	common/cxxopts.hpp	/^        operator()(bool negative, U u, const std::string& text)$/;"	f	struct:cxxopts::values::detail::SignedCheck	typeref:typename:void
+operator ()	common/cxxopts.hpp	/^        operator()(bool, U, const std::string&) {}$/;"	f	struct:cxxopts::values::detail::SignedCheck	typeref:typename:void
+operator () 	common/cxxopts.hpp	/^OptionAdder::operator()$/;"	f	class:cxxopts::OptionAdder	typeref:typename:OptionAdder &
+operator *	common/cxxopts.hpp	/^    operator*() const$/;"	f	class:cxxopts::UnicodeStringIterator	typeref:typename:value_type
+operator +	common/cxxopts.hpp	/^    operator+(int32_t v)$/;"	f	class:cxxopts::UnicodeStringIterator	typeref:typename:UnicodeStringIterator
+operator ++	common/cxxopts.hpp	/^    operator++()$/;"	f	class:cxxopts::UnicodeStringIterator	typeref:typename:UnicodeStringIterator &
+operator +=	common/cnpy.cc	/^template<> std::vector<char>& cnpy::operator+=(std::vector<char>& lhs, const char* rhs) {$/;"	f	class:cnpy	typeref:typename:std::vector<char> &
+operator +=	common/cnpy.cc	/^template<> std::vector<char>& cnpy::operator+=(std::vector<char>& lhs, const std::string rhs) {$/;"	f	class:cnpy	typeref:typename:std::vector<char> &
+operator +=	common/cnpy.h	/^    template<typename T> std::vector<char>& operator+=(std::vector<char>& lhs, const T rhs) {$/;"	f	namespace:cnpy	typeref:typename:std::vector<char> &
+operator ==	common/cxxopts.hpp	/^    operator==(const UnicodeStringIterator& rhs) const$/;"	f	class:cxxopts::UnicodeStringIterator	typeref:typename:bool
+operator []	common/cxxopts.hpp	/^    operator[](const std::string& option) const$/;"	f	class:cxxopts::ParseResult	typeref:typename:const OptionValue &
+option_exists_error	common/cxxopts.hpp	/^    option_exists_error(const std::string& option)$/;"	f	class:cxxopts::option_exists_error
+option_exists_error	common/cxxopts.hpp	/^  class option_exists_error : public OptionSpecException$/;"	c	namespace:cxxopts
+option_matcher	common/cxxopts.hpp	/^    std::basic_regex<char> option_matcher$/;"	v	namespace:cxxopts::__anone513002c0411	typeref:typename:std::basic_regex<char>
+option_not_exists_exception	common/cxxopts.hpp	/^    option_not_exists_exception(const std::string& option)$/;"	f	class:cxxopts::option_not_exists_exception
+option_not_exists_exception	common/cxxopts.hpp	/^  class option_not_exists_exception : public OptionParseException$/;"	c	namespace:cxxopts
+option_not_has_argument_exception	common/cxxopts.hpp	/^    option_not_has_argument_exception$/;"	f	class:cxxopts::option_not_has_argument_exception
+option_not_has_argument_exception	common/cxxopts.hpp	/^  class option_not_has_argument_exception : public OptionParseException$/;"	c	namespace:cxxopts
+option_not_present_exception	common/cxxopts.hpp	/^    option_not_present_exception(const std::string& option)$/;"	f	class:cxxopts::option_not_present_exception
+option_not_present_exception	common/cxxopts.hpp	/^  class option_not_present_exception : public OptionParseException$/;"	c	namespace:cxxopts
+option_required_exception	common/cxxopts.hpp	/^    option_required_exception(const std::string& option)$/;"	f	class:cxxopts::option_required_exception
+option_required_exception	common/cxxopts.hpp	/^  class option_required_exception : public OptionParseException$/;"	c	namespace:cxxopts
+option_requires_argument_exception	common/cxxopts.hpp	/^    option_requires_argument_exception(const std::string& option)$/;"	f	class:cxxopts::option_requires_argument_exception
+option_requires_argument_exception	common/cxxopts.hpp	/^  class option_requires_argument_exception : public OptionParseException$/;"	c	namespace:cxxopts
+option_specifier	common/cxxopts.hpp	/^    std::basic_regex<char> option_specifier$/;"	v	namespace:cxxopts::__anone513002c0411	typeref:typename:std::basic_regex<char>
+option_syntax_exception	common/cxxopts.hpp	/^    option_syntax_exception(const std::string& text)$/;"	f	class:cxxopts::option_syntax_exception
+option_syntax_exception	common/cxxopts.hpp	/^  class option_syntax_exception : public OptionParseException {$/;"	c	namespace:cxxopts
+options	common/cxxopts.hpp	/^    std::vector<HelpOptionDetails> options;$/;"	m	struct:cxxopts::HelpGroupDetails	typeref:typename:std::vector<HelpOptionDetails>
+opts_	common/cxxopts.hpp	/^    std::string opts_;$/;"	m	struct:cxxopts::Option	typeref:typename:std::string
+parse	common/cxxopts.hpp	/^      parse() const$/;"	f	class:cxxopts::values::abstract_value	typeref:typename:void
+parse	common/cxxopts.hpp	/^      parse(const std::string& text) const$/;"	f	class:cxxopts::values::abstract_value	typeref:typename:void
+parse	common/cxxopts.hpp	/^    parse$/;"	f	class:cxxopts::OptionValue	typeref:typename:void
+parse	common/cxxopts.hpp	/^Options::parse(int& argc, char**& argv)$/;"	f	class:cxxopts::Options	typeref:typename:ParseResult
+parse	common/cxxopts.hpp	/^ParseResult::parse(int& argc, char**& argv)$/;"	f	class:cxxopts::ParseResult	typeref:typename:void
+parse_default	common/cxxopts.hpp	/^    parse_default(std::shared_ptr<const OptionDetails> details)$/;"	f	class:cxxopts::OptionValue	typeref:typename:void
+parse_default	common/cxxopts.hpp	/^ParseResult::parse_default(std::shared_ptr<OptionDetails> details)$/;"	f	class:cxxopts::ParseResult	typeref:typename:void
+parse_npy_header	common/cnpy.cc	/^void cnpy::parse_npy_header(FILE* fp, size_t& word_size, std::vector<size_t>& shape, bool& fortr/;"	f	class:cnpy	typeref:typename:void
+parse_npy_header	common/cnpy.cc	/^void cnpy::parse_npy_header(unsigned char* buffer,size_t& word_size, std::vector<size_t>& shape,/;"	f	class:cnpy	typeref:typename:void
+parse_option	common/cxxopts.hpp	/^ParseResult::parse_option$/;"	f	class:cxxopts::ParseResult	typeref:typename:void
+parse_positional	common/cxxopts.hpp	/^    parse_positional(Iterator begin, Iterator end) {$/;"	f	class:cxxopts::Options	typeref:typename:void
+parse_positional	common/cxxopts.hpp	/^Options::parse_positional(std::initializer_list<std::string> options)$/;"	f	class:cxxopts::Options	typeref:typename:void
+parse_positional	common/cxxopts.hpp	/^Options::parse_positional(std::string option)$/;"	f	class:cxxopts::Options	typeref:typename:void
+parse_positional	common/cxxopts.hpp	/^Options::parse_positional(std::vector<std::string> options)$/;"	f	class:cxxopts::Options	typeref:typename:void
+parse_value	common/cxxopts.hpp	/^    parse_value(const std::string& text, T& value) {$/;"	f	namespace:cxxopts::values	typeref:typename:void
+parse_value	common/cxxopts.hpp	/^    parse_value(const std::string& text, bool& value)$/;"	f	namespace:cxxopts::values	typeref:typename:void
+parse_value	common/cxxopts.hpp	/^    parse_value(const std::string& text, int16_t& value)$/;"	f	namespace:cxxopts::values	typeref:typename:void
+parse_value	common/cxxopts.hpp	/^    parse_value(const std::string& text, int32_t& value)$/;"	f	namespace:cxxopts::values	typeref:typename:void
+parse_value	common/cxxopts.hpp	/^    parse_value(const std::string& text, int64_t& value)$/;"	f	namespace:cxxopts::values	typeref:typename:void
+parse_value	common/cxxopts.hpp	/^    parse_value(const std::string& text, int8_t& value)$/;"	f	namespace:cxxopts::values	typeref:typename:void
+parse_value	common/cxxopts.hpp	/^    parse_value(const std::string& text, std::optional<T>& value)$/;"	f	namespace:cxxopts::values	typeref:typename:void
+parse_value	common/cxxopts.hpp	/^    parse_value(const std::string& text, std::string& value)$/;"	f	namespace:cxxopts::values	typeref:typename:void
+parse_value	common/cxxopts.hpp	/^    parse_value(const std::string& text, std::vector<T>& value)$/;"	f	namespace:cxxopts::values	typeref:typename:void
+parse_value	common/cxxopts.hpp	/^    parse_value(const std::string& text, uint16_t& value)$/;"	f	namespace:cxxopts::values	typeref:typename:void
+parse_value	common/cxxopts.hpp	/^    parse_value(const std::string& text, uint32_t& value)$/;"	f	namespace:cxxopts::values	typeref:typename:void
+parse_value	common/cxxopts.hpp	/^    parse_value(const std::string& text, uint64_t& value)$/;"	f	namespace:cxxopts::values	typeref:typename:void
+parse_value	common/cxxopts.hpp	/^    parse_value(const std::string& text, uint8_t& value)$/;"	f	namespace:cxxopts::values	typeref:typename:void
+parse_value	common/cxxopts.hpp	/^    void parse_value(const std::string& text, char& c)$/;"	f	namespace:cxxopts::values	typeref:typename:void
+parse_zip_footer	common/cnpy.cc	/^void cnpy::parse_zip_footer(FILE* fp, uint16_t& nrecs, size_t& global_header_size, size_t& globa/;"	f	class:cnpy	typeref:typename:void
+parser	scripts/compare.py	/^    parser = argparse.ArgumentParser(description="Compare two npz files")$/;"	v
+parser	scripts/plot_evaluate.py	/^    parser = argparse.ArgumentParser(description="Compare two npz files")$/;"	v
+parser	scripts/visualise.py	/^    parser = argparse.ArgumentParser(description="Visualize mandelbrot set")$/;"	v
+patch	common/cxxopts.hpp	/^    uint8_t major, minor, patch;$/;"	m	struct:cxxopts::__anone513002c0108	typeref:typename:uint8_t
+plot_data	scripts/plot_evaluate.py	/^def plot_data(filename = "datalog.csv", show = False, save = None):$/;"	f
+plot_visualize	scripts/visualise.py	/^def plot_visualize(filename="datalog.csv", show=False, save=None):$/;"	f
+plt	scripts/plot_evaluate.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
+plt	scripts/visualise.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
+positional_help	common/cxxopts.hpp	/^    positional_help(std::string help_text)$/;"	f	class:cxxopts::Options	typeref:typename:Options &
+s	common/cxxopts.hpp	/^    const icu::UnicodeString* s;$/;"	m	class:cxxopts::UnicodeStringIterator	typeref:typename:const icu::UnicodeString *
+s	common/cxxopts.hpp	/^    std::string s;$/;"	m	struct:cxxopts::HelpOptionDetails	typeref:typename:std::string
+set_default_and_implicit	common/cxxopts.hpp	/^      set_default_and_implicit()$/;"	f	class:cxxopts::values::standard_value	typeref:typename:void
+shape	common/cnpy.h	/^        std::vector<size_t> shape;$/;"	m	struct:cnpy::NpyArray	typeref:typename:std::vector<size_t>
+short_name	common/cxxopts.hpp	/^    short_name() const$/;"	f	class:cxxopts::OptionDetails	typeref:typename:const std::string &
+show_positional_help	common/cxxopts.hpp	/^    show_positional_help()$/;"	f	class:cxxopts::Options	typeref:typename:Options &
+standard_value	common/cxxopts.hpp	/^      standard_value()$/;"	f	class:cxxopts::values::standard_value
+standard_value	common/cxxopts.hpp	/^      standard_value(bool* b)$/;"	f	class:cxxopts::values::standard_value
+standard_value	common/cxxopts.hpp	/^    class standard_value : public abstract_value<T>$/;"	c	namespace:cxxopts::values
+standard_value	common/cxxopts.hpp	/^    class standard_value<bool> : public abstract_value<bool>$/;"	c	namespace:cxxopts::values
+std	common/cxxopts.hpp	/^namespace std$/;"	n
+stringAppend	common/cxxopts.hpp	/^  stringAppend(String& s, Iterator begin, Iterator end)$/;"	f	namespace:cxxopts	typeref:typename:String &
+stringAppend	common/cxxopts.hpp	/^  stringAppend(String& s, int n, UChar32 c)$/;"	f	namespace:cxxopts	typeref:typename:String &
+stringAppend	common/cxxopts.hpp	/^  stringAppend(String& s, size_t n, char c)$/;"	f	namespace:cxxopts	typeref:typename:String &
+stringAppend	common/cxxopts.hpp	/^  stringAppend(String&s, String a)$/;"	f	namespace:cxxopts	typeref:typename:String &
+stringLength	common/cxxopts.hpp	/^  stringLength(const String& s)$/;"	f	namespace:cxxopts	typeref:typename:size_t
+stringstream_parser	common/cxxopts.hpp	/^    void stringstream_parser(const std::string& text, T& value)$/;"	f	namespace:cxxopts::values	typeref:typename:void
+throw_or_mimic	common/cxxopts.hpp	/^  void throw_or_mimic(const std::string& text)$/;"	f	namespace:cxxopts	typeref:typename:void
+toLocalString	common/cxxopts.hpp	/^  toLocalString(T&& t)$/;"	f	namespace:cxxopts	typeref:typename:T
+toLocalString	common/cxxopts.hpp	/^  toLocalString(std::string s)$/;"	f	namespace:cxxopts	typeref:typename:String
+toUTF8String	common/cxxopts.hpp	/^  toUTF8String(T&& t)$/;"	f	namespace:cxxopts	typeref:typename:std::string
+toUTF8String	common/cxxopts.hpp	/^  toUTF8String(const String& s)$/;"	f	namespace:cxxopts	typeref:typename:std::string
+truthy_pattern	common/cxxopts.hpp	/^      std::basic_regex<char> truthy_pattern$/;"	v	namespace:cxxopts::values::__anone513002c0311	typeref:typename:std::basic_regex<char>
+type_is_container	common/cxxopts.hpp	/^    struct type_is_container$/;"	s	namespace:cxxopts::values
+type_is_container	common/cxxopts.hpp	/^    struct type_is_container<std::vector<T>>$/;"	s	namespace:cxxopts::values
+value	common/cxxopts.hpp	/^      static constexpr bool value = false;$/;"	m	struct:cxxopts::values::type_is_container	typeref:typename:bool
+value	common/cxxopts.hpp	/^      static constexpr bool value = true;$/;"	m	struct:cxxopts::values::type_is_container	typeref:typename:bool
+value	common/cxxopts.hpp	/^    const Value& value() const {$/;"	f	class:cxxopts::OptionDetails	typeref:typename:const Value &
+value	common/cxxopts.hpp	/^    value() const$/;"	f	class:cxxopts::KeyValue	typeref:typename:const std::string &
+value	common/cxxopts.hpp	/^  value()$/;"	f	namespace:cxxopts	typeref:typename:std::shared_ptr<Value>
+value	common/cxxopts.hpp	/^  value(T& t)$/;"	f	namespace:cxxopts	typeref:typename:std::shared_ptr<Value>
+value_	common/cxxopts.hpp	/^    std::shared_ptr<const Value> value_;$/;"	m	struct:cxxopts::Option	typeref:typename:std::shared_ptr<const Value>
+values	common/cxxopts.hpp	/^  namespace values$/;"	n	namespace:cxxopts
+version	common/cxxopts.hpp	/^  } version = {$/;"	v	namespace:cxxopts	typeref:struct:cxxopts::__anone513002c0108
+what	common/cxxopts.hpp	/^    what() const noexcept$/;"	f	class:cxxopts::OptionException	typeref:typename:const char *
+width	calculators/BaseMandelCalculator.h	/^    int width; \/\/ width of the set$/;"	m	class:BaseMandelCalculator	typeref:typename:int
+word_size	common/cnpy.h	/^        size_t word_size;$/;"	m	struct:cnpy::NpyArray	typeref:typename:size_t
+x_fin	calculators/BaseMandelCalculator.h	/^	const double x_fin; \/\/ maximal real value$/;"	m	class:BaseMandelCalculator	typeref:typename:const double
+x_start	calculators/BaseMandelCalculator.h	/^	const double x_start; \/\/ minimal real value$/;"	m	class:BaseMandelCalculator	typeref:typename:const double
+y_fin	calculators/BaseMandelCalculator.h	/^	const double y_fin; \/\/ maximal imag value$/;"	m	class:BaseMandelCalculator	typeref:typename:const double
+y_start	calculators/BaseMandelCalculator.h	/^	const double y_start; \/\/ minimal imag value$/;"	m	class:BaseMandelCalculator	typeref:typename:const double
+~BatchMandelCalculator	calculators/BatchMandelCalculator.cc	/^BatchMandelCalculator::~BatchMandelCalculator() {$/;"	f	class:BatchMandelCalculator
+~LineMandelCalculator	calculators/LineMandelCalculator.cc	/^LineMandelCalculator::~LineMandelCalculator() {$/;"	f	class:LineMandelCalculator
+~RefMandelCalculator	calculators/RefMandelCalculator.cc	/^RefMandelCalculator::~RefMandelCalculator()$/;"	f	class:RefMandelCalculator

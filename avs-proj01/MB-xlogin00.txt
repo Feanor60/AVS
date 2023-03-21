@@ -1,0 +1,26 @@
+#### Stručně odpovězte na následující otázky: ######
+
+1. Proč je nutné určovat, zda má výpočet pokračovat?
+==============================================================================
+Pokud by nebylo omezeni na limit tak by mohl vypocet pokracovat do nekonecna.
+
+2. Byla "Line" vektorizace efektivní? Proč?
+==============================================================================
+Ano, protoze narozdil od referencniho zadani bylo zpracováno více bodů najednou.
+
+3. Jaká byla dosažena výkonnost v Intel Advisoru pro jednotlivé implementace 
+(v GFLOPS)?
+==============================================================================
+Pro implementaci line 15.84 GFLOPS.
+Pro implementaci batch 9.68 GFLOPS.
+
+4. Jaká část kódu byla vektorizována v "Line" implementaci? Vyčteme tuto 
+informaci i u batch kalkulátoru?
+==============================================================================
+Pro line byla vektorizovana nejvnitrnejsi smycka. Zde byly vektorizovane pocitani dalsiho bodu. To stejne pro batch.
+U obou implementaci je problem s neefektivnim pristupem do pameti, u batch vic nez u line.
+
+5. Co vyčteme z Roofline modelu pro obě vektorizované implementace?
+==============================================================================
+V line implementaci je dosahnuto L3 propustnosti a aritmeticka intenzita je kolem 0.6.
+V batch implementaci je dosahnuto trochu lepsi propustnosti ale porad blizko k L3, aritmeticka intenzita je 0.7.

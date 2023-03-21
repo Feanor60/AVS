@@ -1,0 +1,3 @@
+/home/xbubel08/avs-proj02/build_evaluate/CMakeFiles/PMC.dir
+/home/xbubel08/avs-proj02/build_evaluate/CMakeFiles/edit_cache.dir
+/home/xbubel08/avs-proj02/build_evaluate/CMakeFiles/rebuild_cache.dir
